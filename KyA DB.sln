@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KyA DB", "KyA DB.csproj", "{0AA48759-BD81-46D7-B36B-A72513B439B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KyA DB Test", "..\KyA DB Test\KyA DB Test.csproj", "{2B3D9C06-096F-4C56-8D92-299E4D4F3553}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0AA48759-BD81-46D7-B36B-A72513B439B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AA48759-BD81-46D7-B36B-A72513B439B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AA48759-BD81-46D7-B36B-A72513B439B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3D9C06-096F-4C56-8D92-299E4D4F3553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3D9C06-096F-4C56-8D92-299E4D4F3553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3D9C06-096F-4C56-8D92-299E4D4F3553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3D9C06-096F-4C56-8D92-299E4D4F3553}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

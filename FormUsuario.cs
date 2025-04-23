@@ -24,16 +24,27 @@ namespace KyA_DB
             CargarPeliculas();
         }
 
+        /// <summary>
+        /// Carga las películas disponibles en el DataGridView correspondiente.
+        /// </summary>
         private void CargarPeliculas()
         {
             CargarDatos("peliculas", dgvPeliculas);
         }
 
+        /// <summary>
+        /// Carga las series disponibles en el DataGridView correspondiente.
+        /// </summary>
         private void CargarSeries()
         {
             CargarDatos("series", dgvSeries);
         }
 
+        /// <summary>
+        /// Carga los datos de una tabla específica en el DataGridView proporcionado.
+        /// </summary>
+        /// <param name="tabla">Nombre de la tabla a cargar (películas o series).</param>
+        /// <param name="dgv">DataGridView donde se mostrarán los datos.</param>
         private void CargarDatos(string tabla, DataGridView dgv)
         {
             try
@@ -65,6 +76,9 @@ namespace KyA_DB
             }
         }
 
+        /// <summary>
+        /// Guarda los cambios realizados en las valoraciones y estados de visualización de películas y series.
+        /// </summary>
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             try
@@ -128,12 +142,18 @@ namespace KyA_DB
             }
         }
 
+        /// <summary>
+        /// Cierra la sesión del usuario actual y cierra el formulario.
+        /// </summary>
         private void btnCerrarSesion_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Sesión cerrada correctamente.", "Cerrar Sesión", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
 
+        /// <summary>
+        /// Agrega un comentario para la película o serie seleccionada.
+        /// </summary>
         private void btnComentar_Click(object sender, EventArgs e)
         {
             string comentario = txtComentario.Text.Trim();
@@ -187,6 +207,10 @@ namespace KyA_DB
             }
         }
 
+        /// <summary>
+        /// Carga los comentarios asociados a la película o serie seleccionada.
+        /// </summary>
+        /// <param name="tabla">Nombre de la tabla (películas o series).</param>
         private void CargarComentarios(string tabla)
         {
             try
@@ -232,16 +256,26 @@ namespace KyA_DB
             }
         }
 
+        /// <summary>
+        /// Maneja el evento de cambio de selección en el DataGridView de películas.
+        /// </summary>
         private void dgvPeliculas_SelectionChanged(object sender, EventArgs e)
         {
             CargarComentarios("peliculas");
         }
 
+        /// <summary>
+        /// Maneja el evento de cambio de selección en el DataGridView de series.
+        /// </summary>
         private void dgvSeries_SelectionChanged(object sender, EventArgs e)
         {
             CargarComentarios("series");
         }
 
+        /// <summary>
+        /// Maneja el evento de cambio de pestaña en el TabControl.
+        /// Carga los datos y comentarios correspondientes a la pestaña seleccionada.
+        /// </summary>
         private void tabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (tabControl.SelectedTab == tabSeries)
@@ -257,5 +291,4 @@ namespace KyA_DB
         }
     }
 }
-
 
