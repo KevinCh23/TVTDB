@@ -71,3 +71,4 @@ C:\Users\pc\source\repos\KyA DB\obj\Debug\net8.0-windows\refint\KyA DB.dll
 C:\Users\pc\source\repos\KyA DB\obj\Debug\net8.0-windows\KyA DB.pdb
 C:\Users\pc\source\repos\KyA DB\obj\Debug\net8.0-windows\KyA DB.genruntimeconfig.cache
 C:\Users\pc\source\repos\KyA DB\obj\Debug\net8.0-windows\ref\KyA DB.dll
+C:\Users\pc\source\repos\KyA DB\obj\Debug\net8.0-windows\KyA DB.sourcelink.json

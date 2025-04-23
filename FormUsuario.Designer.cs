@@ -11,6 +11,8 @@
         private System.Windows.Forms.ListBox lstComentarios;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnCerrarSesion;
+        private System.Windows.Forms.TextBox txtComentario;
+        private System.Windows.Forms.Button btnComentar;
 
         protected override void Dispose(bool disposing)
         {
@@ -31,6 +33,8 @@
             this.lstComentarios = new System.Windows.Forms.ListBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
+            this.txtComentario = new System.Windows.Forms.TextBox();
+            this.btnComentar = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.tabPeliculas.SuspendLayout();
             this.tabSeries.SuspendLayout();
@@ -47,6 +51,7 @@
             this.tabControl.SelectedIndex = 0;
             this.tabControl.Size = new System.Drawing.Size(760, 350);
             this.tabControl.TabIndex = 0;
+            this.tabControl.SelectedIndexChanged += new System.EventHandler(this.tabControl_SelectedIndexChanged);
             // 
             // tabPeliculas
             // 
@@ -66,6 +71,7 @@
             this.dgvPeliculas.Name = "dgvPeliculas";
             this.dgvPeliculas.Size = new System.Drawing.Size(740, 310);
             this.dgvPeliculas.TabIndex = 0;
+            this.dgvPeliculas.SelectionChanged += new System.EventHandler(this.dgvPeliculas_SelectionChanged);
             // 
             // tabSeries
             // 
@@ -85,6 +91,7 @@
             this.dgvSeries.Name = "dgvSeries";
             this.dgvSeries.Size = new System.Drawing.Size(740, 310);
             this.dgvSeries.TabIndex = 0;
+            this.dgvSeries.SelectionChanged += new System.EventHandler(this.dgvSeries_SelectionChanged);
             // 
             // lstComentarios
             // 
@@ -95,9 +102,26 @@
             this.lstComentarios.Size = new System.Drawing.Size(760, 94);
             this.lstComentarios.TabIndex = 1;
             // 
+            // txtComentario
+            // 
+            this.txtComentario.Location = new System.Drawing.Point(12, 468);
+            this.txtComentario.Name = "txtComentario";
+            this.txtComentario.Size = new System.Drawing.Size(540, 23);
+            this.txtComentario.TabIndex = 4;
+            // 
+            // btnComentar
+            // 
+            this.btnComentar.Location = new System.Drawing.Point(558, 468);
+            this.btnComentar.Name = "btnComentar";
+            this.btnComentar.Size = new System.Drawing.Size(100, 30);
+            this.btnComentar.TabIndex = 5;
+            this.btnComentar.Text = "Comentar";
+            this.btnComentar.UseVisualStyleBackColor = true;
+            this.btnComentar.Click += new System.EventHandler(this.btnComentar_Click);
+            // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(12, 468);
+            this.btnGuardar.Location = new System.Drawing.Point(12, 508);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(100, 30);
             this.btnGuardar.TabIndex = 2;
@@ -107,7 +131,7 @@
             // 
             // btnCerrarSesion
             // 
-            this.btnCerrarSesion.Location = new System.Drawing.Point(672, 468);
+            this.btnCerrarSesion.Location = new System.Drawing.Point(672, 508);
             this.btnCerrarSesion.Name = "btnCerrarSesion";
             this.btnCerrarSesion.Size = new System.Drawing.Size(100, 30);
             this.btnCerrarSesion.TabIndex = 3;
@@ -117,7 +141,9 @@
             // 
             // FormUsuario
             // 
-            this.ClientSize = new System.Drawing.Size(784, 511);
+            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.btnComentar);
+            this.Controls.Add(this.txtComentario);
             this.Controls.Add(this.btnCerrarSesion);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.lstComentarios);
@@ -130,7 +156,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvPeliculas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSeries)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
         }
     }
 }
+
 

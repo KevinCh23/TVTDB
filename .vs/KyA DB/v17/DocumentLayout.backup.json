@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\KyA DB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|c:\\users\\pc\\source\\repos\\kya db\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|c:\\users\\pc\\source\\repos\\kya db\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|c:\\users\\pc\\source\\repos\\kya db\\formusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:formusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|c:\\users\\pc\\source\\repos\\kya db\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|c:\\users\\pc\\source\\repos\\kya db\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|c:\\users\\pc\\source\\repos\\kya db\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|C:\\Users\\pc\\source\\repos\\KyA DB\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|c:\\users\\pc\\source\\repos\\kya db\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|c:\\users\\pc\\source\\repos\\kya db\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|C:\\Users\\pc\\source\\repos\\KyA DB\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -31,14 +43,6 @@
       "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|C:\\Users\\pc\\source\\repos\\KyA DB\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|c:\\users\\pc\\source\\repos\\kya db\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|c:\\users\\pc\\source\\repos\\kya db\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AA48759-BD81-46D7-B36B-A72513B439B9}|KyA DB.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -50,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\KyA DB\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAABQAAAAANDMzMzPzvyIAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAACAMzMzMzMhwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T01:32:11.604Z",
               "IsPinned": true,
@@ -72,44 +76,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form2.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\Form2.Designer.cs",
-              "RelativeDocumentMoniker": "Form2.Designer.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\KyA DB\\Form2.Designer.cs",
-              "RelativeToolTip": "Form2.Designer.cs",
-              "ViewState": "AgIAADMAAABgZmZmZmYkwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "FormAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\FormAdmin.cs",
+              "RelativeDocumentMoniker": "FormAdmin.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\KyA DB\\FormAdmin.cs",
+              "RelativeToolTip": "FormAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T01:52:08.263Z"
+              "WhenOpened": "2025-04-23T01:45:56.422Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FormUsuario.Designer.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\FormUsuario.Designer.cs",
               "RelativeDocumentMoniker": "FormUsuario.Designer.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\KyA DB\\FormUsuario.Designer.cs",
               "RelativeToolTip": "FormUsuario.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAANDMzMzMbwHcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T03:03:59.01Z"
+              "WhenOpened": "2025-04-22T03:03:59.01Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FormUsuario.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\FormUsuario.cs",
               "RelativeDocumentMoniker": "FormUsuario.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\KyA DB\\FormUsuario.cs",
-              "RelativeToolTip": "FormUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\KyA DB\\FormUsuario.cs*",
+              "RelativeToolTip": "FormUsuario.cs*",
+              "ViewState": "AgIAAHkAAABAAAAAAAAiwMkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T03:03:18.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Form2.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -120,7 +126,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\Conexion.cs",
+              "RelativeDocumentMoniker": "Conexion.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\KyA DB\\Conexion.cs",
+              "RelativeToolTip": "Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAEB9wBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:07:06.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "FormAdmin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\FormAdmin.cs",
+              "RelativeDocumentMoniker": "FormAdmin.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\KyA DB\\FormAdmin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormAdmin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T02:00:39.188Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\KyA DB\\Form2.Designer.cs",
+              "RelativeToolTip": "Form2.Designer.cs",
+              "ViewState": "AgIAADMAAABgZmZmZmYkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:52:08.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FormUsuario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\FormUsuario.cs",
               "RelativeDocumentMoniker": "FormUsuario.cs",
@@ -131,41 +175,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\KyA DB\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T23:25:19.988Z"
+              "WhenOpened": "2025-04-21T23:25:19.988Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormAdmin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\FormAdmin.cs",
-              "RelativeDocumentMoniker": "FormAdmin.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\KyA DB\\FormAdmin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormAdmin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T02:00:39.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\Conexion.cs",
-              "RelativeDocumentMoniker": "Conexion.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\KyA DB\\Conexion.cs",
-              "RelativeToolTip": "Conexion.cs",
-              "ViewState": "AgIAAAQAAABAMzMzMzMrwBwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T01:07:06.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\KyA DB\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

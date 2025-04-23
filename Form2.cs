@@ -7,8 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System;
-using Microsoft.Data.SqlClient;
 using System.Windows.Forms;
+using Microsoft.Data.SqlClient;
 
 namespace KyA_DB
 {
@@ -32,26 +32,20 @@ namespace KyA_DB
 
             try
             {
-                // Conexión a la base de datos
                 using (SqlConnection cnx = new SqlConnection("Data Source=DESKTOP-UFBV34N;Initial Catalog=TVTRACK;Integrated Security=True;TrustServerCertificate=True"))
                 {
                     cnx.Open();
-
-                    // Consulta para validar el usuario
                     string query = "SELECT Rol FROM dbo.usuarios WHERE Usuario = @Usuario AND Contraseña = @Contraseña";
                     using (SqlCommand cmd = new SqlCommand(query, cnx))
                     {
-                        cmd.Parameters.Add(new SqlParameter("@Usuario", SqlDbType.NVarChar) { Value = username });
-                        cmd.Parameters.Add(new SqlParameter("@Contraseña", SqlDbType.NVarChar) { Value = password });
-
+                        cmd.Parameters.AddWithValue("@Usuario", username);
+                        cmd.Parameters.AddWithValue("@Contraseña", password);
 
                         object result = cmd.ExecuteScalar();
 
                         if (result != null)
                         {
                             string role = result.ToString();
-
-                            // Redirigir según el rol
                             if (role == "Admin")
                             {
                                 FormAdmin adminForm = new FormAdmin();
@@ -67,7 +61,7 @@ namespace KyA_DB
                                 lblError.Text = "Rol desconocido.";
                             }
 
-                            this.Hide(); // Ocultar el formulario de login
+                            this.Hide();
                         }
                         else
                         {
